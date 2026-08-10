@@ -3490,9 +3490,9 @@ success-message
 @media (max-width: 600px) {
 
     .success-message {
-        position: relative;
-        bottom: auto;
-        left: auto;
+        position: absolute;
+        bottom:-700;
+        
 
         margin-top: 25px;
         width: 100%;
@@ -3503,9 +3503,9 @@ success-message
 @media (max-width: 900px) {
 
     .success-message {
-        position: relative;
-        bottom: auto;
-        left: auto;
+        position: absolute;
+        bottom: -700;
+   
 
         margin-top: 25px;
         width: 100%;
