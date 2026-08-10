@@ -3486,3 +3486,29 @@ success-message
     }
 
 }
+
+@media (max-width: 600px) {
+
+    .success-message {
+        position: relative;
+        bottom: auto;
+        left: auto;
+
+        margin-top: 25px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .success-message {
+        position: relative;
+        bottom: auto;
+        left: auto;
+
+        margin-top: 25px;
+        width: 100%;
+    }
+
+}
