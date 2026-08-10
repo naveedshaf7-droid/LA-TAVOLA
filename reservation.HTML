@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Reserve a Table | La Tavola</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- Header -->
+
+    <header>
+
+        <nav>
+
+            <div class="logo">
+                La Tavola
+            </div>
+
+
+            <div class="nav-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="menu.html">
+                    Menu
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- Main -->
+
+    <main>
+
+
+        <!-- Reservation Hero -->
+
+        <section class="reservation-hero">
+
+            <div class="reservation-hero-content">
+
+                <p class="subtitle">
+                    YOUR EVENING AWAITS
+                </p>
+
+                <h1>
+                    Reserve<br>
+                    Your Table
+                </h1>
+
+                <p id="box">
+                    Join us for an unforgettable dining experience
+                    surrounded by exceptional food and warm hospitality.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Reservation Section -->
+
+        <section class="reservation-section">
+
+
+            <!-- Information -->
+
+            <div class="reservation-info">
+
+                <p class="section-label">
+                    LA TAVOLA
+                </p>
+
+                <h2 id="box-2">
+                    A Table<br>
+                    Awaits You
+                </h2>
+
+                <p>
+                    Whether you're planning a romantic dinner,
+                    celebrating a special occasion, or simply enjoying
+                    an evening with friends, we'd be delighted to have
+                    you with us.
+                </p>
+
+
+                <div class="reservation-details">
+
+                    <div>
+
+                        <span>
+                            HOURS
+                        </span>
+
+                        <p>
+                            Monday – Thursday
+                        </p>
+
+                        <p>
+                            12:00 PM – 10:00 PM
+                        </p>
+
+                        <p>
+                            Friday – Sunday
+                        </p>
+
+                        <p>
+                            12:00 PM – 11:00 PM
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            CONTACT
+                        </span>
+
+                        <p>
+                            +92 300 1234567
+                        </p>
+
+                        <p>
+                            reservations@latavola.com
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Reservation Form -->
+
+            <div class="reservation-form-container">
+
+                <p class="section-label">
+                    BOOK YOUR TABLE
+                </p>
+
+                <h2>
+                    Make a Reservation
+                </h2>
+
+
+                <form id="reservation-form" action="#" method="post">
+
+
+                    <!-- Name -->
+
+                    <div class="form-group">
+
+                        <label for="reservation-name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="reservation-name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+
+                    <!-- Email + Phone -->
+
+                    <div class="reservation-form-row">
+
+                        <div class="form-group">
+
+                            <label for="reservation-email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="reservation-email"
+                                name="email"
+                                placeholder="Your email"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="reservation-phone">
+                                Phone
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="reservation-phone"
+                                name="phone"
+                                placeholder="Your phone"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Date + Time -->
+
+                    <div class="reservation-form-row">
+
+                        <div class="form-group">
+
+                            <label for="reservation-date">
+                                Date
+                            </label>
+
+                            <input
+                                type="date"
+                                id="reservation-date"
+                                name="date"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="reservation-time">
+                                Time
+                            </label>
+
+                            <input
+                                type="time"
+                                id="reservation-time"
+                                name="time"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Guests -->
+
+                    <div class="form-group">
+
+                        <label for="guests">
+                            Number of Guests
+                        </label>
+
+                        <select
+                            id="guests"
+                            name="guests"
+                            required
+                        >
+
+                            <option value="">
+                                Select number of guests
+                            </option>
+
+                            <option value="1">
+                                1 Guest
+                            </option>
+
+                            <option value="2">
+                                2 Guests
+                            </option>
+
+                            <option value="3">
+                                3 Guests
+                            </option>
+
+                            <option value="4">
+                                4 Guests
+                            </option>
+
+                            <option value="5">
+                                5 Guests
+                            </option>
+
+                            <option value="6">
+                                6 Guests
+                            </option>
+
+                            <option value="7">
+                                7 Guests
+                            </option>
+
+                            <option value="8">
+                                8 Guests
+                            </option>
+
+                            <option value="9+">
+                                9+ Guests
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- Occasion -->
+
+                    <div class="form-group">
+
+                        <label for="occasion">
+                            Occasion
+                        </label>
+
+                        <select
+                            id="occasion"
+                            name="occasion"
+                        >
+
+                            <option value="">
+                                Select an occasion
+                            </option>
+
+                            <option value="birthday">
+                                Birthday
+                            </option>
+
+                            <option value="anniversary">
+                                Anniversary
+                            </option>
+
+                            <option value="business">
+                                Business Dinner
+                            </option>
+
+                            <option value="date">
+                                Date Night
+                            </option>
+
+                            <option value="other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- Special Request -->
+
+                    <div class="form-group">
+
+                        <label for="special-request">
+                            Special Requests
+                        </label>
+
+                        <textarea
+                            id="special-request"
+                            name="special-request"
+                            rows="5"
+                            placeholder="Any special requests or notes?"
+                        ></textarea>
+
+                    </div>
+
+
+
+                    <!-- Submit -->
+
+                    <button type="submit">
+                        Request Reservation
+                    </button>
+
+
+                </form>
+
+            </div>
+                       <div id="success-message" class="success-message">
+    <div class="success-icon">✓</div>
+
+    <div>
+        <h3>Request Sent Successfully</h3>
+        <p>Your reservation request has been received.</p>
+    </div>
+    </div>
+        </section>
+
+
+
+        <!-- Bottom Message -->
+
+        <section class="reservation-note">
+
+            <p>
+                NEED HELP WITH YOUR RESERVATION?
+            </p>
+
+            <h2>
+                We're Here For You
+            </h2>
+
+            <p>
+                For large groups, private events, or special arrangements,
+                please contact our team directly.
+            </p>
+
+            <a href="contact.html">
+                Contact Us
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- Footer -->
+
+    <footer>
+
+
+        <div class="footer-content">
+
+
+            <div class="footer-brand">
+
+                <h2>
+                    La Tavola
+                </h2>
+
+                <p>
+                    Authentic flavors. Modern dining.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="menu.html">
+                    Menu
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-contact">
+
+                <h3>
+                    Visit Us
+                </h3>
+
+                <p>
+                    123 Main Street
+                </p>
+
+                <p>
+                    Sialkot, Pakistan
+                </p>
+
+                <p>
+                    +92 300 1234567
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-social">
+
+                <h3>
+                    Follow Us
+                </h3>
+
+                <a href="#">
+                    Instagram
+                </a>
+
+                <a href="#">
+                    Facebook
+                </a>
+
+                <a href="#">
+                    YouTube
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 La Tavola. All Rights Reserved.
+            </p>
+
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
